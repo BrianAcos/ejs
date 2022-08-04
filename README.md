@@ -11,5 +11,6 @@ en index.js linea 12 añadir variables
 
 empezar a debuggear:
 npm start
+
 abri el navegador en http://localhost:3000/
 
