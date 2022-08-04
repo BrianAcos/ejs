@@ -3,8 +3,11 @@
 instalar dependencias:
 npm install
 
+
 en template.ejs colocar el html
+
 en index.js linea 12 añadir variables
+
 
 empezar a debuggear:
 npm start
