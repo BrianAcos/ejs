@@ -11,7 +11,10 @@ app.get("/", (req, res) => {
   res.render("template", {
     name: " Brian",
     link: "https://qik.com.do/r/chris-vargas",
-    tickets: 2,
+    id: "chris-vargas",
+    tickets: 3,
+    referralCode: "hasoidhasoihdoiu hhasdoi",
+    code: 123,
     users: ["Diego Bonilla Victoriano", "Ambar Gonzalez Lora", "Maritza Díaz "],
   });
 });

@@ -155,32 +155,76 @@
       <img
         alt=""
         class="img-fluid"
-        src="https://qa.cloud.qik.com.do/templateImages/asi-se-hace.png"
+        src="https://qa.cloud.qik.com.do/templateImages/Quiker.png"
       />
       <div class="div-body">
         <h1>Hola <%= name %></h1>
         <p>
-          ¡Tu amigo atrapó el avión! Uno de tus amigos ya se inscribió en la
-          lista de espera; consigue que los demás también lo hagan y participa
-          para ganar un <b>iPhone 13 Pro Max.</b>
+          <b>¡Estás en la lista de espera! </b>
+          Ya casi eres parte de Qik y estás más cerca de vivir la experiencia
+          del primer banco 100% digital de República Dominicana.
         </p>
-        <img
-          alt=""
-          class="img-fluid"
-          style="margin: 20px 0px"
-          src="https://qa.cloud.qik.com.do/templateImages/paper-plane.png"
-        />
-        <p><b>Sigue compartiendo y aumenta tus posibilidades de ganar.</b></p>
-        <div class="div-link">
-          <p class="p-link">Link</p>
-          <a class="a-link" href="<%= link %>"> <%= link %> </a>
+        <p>
+          Ahora lánzale el avión a 3 amigos para que se inscriban y participa
+          para ganar un
+          <b>iPhone 13 Pro Max. </b>
+        </p>
+
+        <div
+          style="
+            background-color: #ebe1d2;
+            background: #ffffff;
+            position: relative;
+            margin-top: 80px;
+            border: 1px solid #f6f6f6;
+
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 40px;
+          "
+        >
           <img
+            style="bottom: 0; left: 0; margin-top: 10px; position: absolute"
+            src="https://qa.cloud.qik.com.do/templateImages/IPhone.png"
             alt=""
-            class="icon-link"
-            onclick="navigator.clipboard.writeText(('<%= link %>'))"
-            src="https://qa.cloud.qik.com.do/templateImages/icon-copy.png"
           />
+          <div
+            style="
+              position: relative;
+              left: 150px;
+              padding-left: 100;
+              padding: 17;
+            "
+          >
+            <h1 style="color: black">Comparte y gana</h1>
+
+            <div class="div-link">
+              <p class="p-link">Link</p>
+              <a class="a-link" href="<%= link %>"> <%= link %> </a>
+              <img
+                alt=""
+                class="icon-link"
+                onclick="navigator.clipboard.writeText(link);"
+                src="https://qa.cloud.qik.com.do/templateImages/icon-copy.png"
+              />
+            </div>
+            <a
+              style="
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #003c73 !important;
+              "
+              href="http://google.com"
+              >Detalles del concurso</a
+            >
+          </div>
         </div>
+
         <p>
           No olvides que si quieres conocer más acerca de nosotros ingresa a la
           web
